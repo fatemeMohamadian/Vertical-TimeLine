@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "title";
+  src: url("../font/PlayfairDisplay-Medium.ttf");
+  font-family: "text";
+  src: url("../font/Merriweather-Light.ttf");
+}
+body {
+  background-color: rgb(69, 105, 144);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+main > .row {
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(244, 91, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main > .row > #slide1 > .row {
+  text-align: center;
+}
+main > .row > #slide1 > .row .box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row .box > h1 {
+  color: white;
+  font-family: "text";
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 10px rgb(130, 6, 6);
+}
+main > .row > .row {
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row > #slide2 {
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+main > .row > .row > #slide2 .line {
+  height: 96%;
+  width: 5px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main > .row > .row > #slide2 .line > .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s linear;
+}
+main > .row > .row > #slide2 .line .c1 {
+  top: 9%;
+}
+main > .row > .row > #slide2 .line .c2 {
+  top: 17.5%;
+}
+main > .row > .row > #slide2 .line .c3 {
+  top: 26%;
+}
+main > .row > .row > #slide2 .line .c4 {
+  top: 34.5%;
+}
+main > .row > .row > #slide2 .line .c5 {
+  top: 43%;
+}
+main > .row > .row > #slide2 .line .c6 {
+  top: 51.5%;
+}
+main > .row > .row > #slide2 .line .c7 {
+  top: 61%;
+}
+main > .row > .row > #slide2 .line .c8 {
+  top: 69.5%;
+}
+main > .row > .row > #slide2 .line .c9 {
+  top: 78%;
+}
+main > .row > .row > #slide2 .line .c10 {
+  top: 86.5%;
+}
+main > .row > .row > #slide2 .line .c11 {
+  top: 95%;
+}
+main > .row > .row > #slide2 .line .c12 {
+  top: 100%;
+}
+main > .row > .row > #slide2 .line .sp {
+  background-color: rgb(238, 72, 86);
+}
+main > .row > .row > #slide2 .box2 {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(244, 91, 105);
+  position: absolute;
+  transition: 0.5s linear;
+}
+main > .row > .row > #slide2 .box2 > * {
+  color: white;
+  padding: 8px 15px;
+}
+main > .row > .row > #slide2 .box2 > h2 {
+  width: 100%;
+  font-family: "title";
+  font-weight: bold;
+  padding-top: 20px;
+}
+main > .row > .row > #slide2 .box2 > p {
+  width: 100%;
+  font-family: "text";
+  font-size: 15px;
+  text-shadow: 2px 2px 2px rgb(96, 1, 9);
+  line-height: 25px;
+}
+main > .row > .row > #slide2 .box2 > span {
+  position: absolute;
+  font-size: 40px;
+}
+main > .row > .row > #slide2 .box2 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box3 {
+  top: 120px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box3 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box4 {
+  top: 325px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box4 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box4 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box5 {
+  top: 525px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box5 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box6 {
+  top: 730px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box6 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box6 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box7 {
+  top: 935px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box7 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box8 {
+  top: 1140px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box8 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box8 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box9 {
+  top: 1365px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box9 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box10 {
+  top: 1570px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box10 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box10 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box11 {
+  top: 1775px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box11 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box12 {
+  top: 1975px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box12 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box12 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .box13 {
+  top: 2180px;
+  right: 310px;
+}
+main > .row > .row > #slide2 .box13 > span {
+  bottom: 0;
+  right: 365px;
+}
+main > .row > .row > #slide2 .box14 {
+  top: 2300px;
+  left: 310px;
+}
+main > .row > .row > #slide2 .box14 > span {
+  bottom: 0;
+  left: 365px;
+  rotate: 180deg;
+}
+main > .row > .row > #slide2 .box14 > span > i {
+  color: rgb(244, 91, 105);
+}
+main > .row > .row > #slide2 .right {
+  right: -500px;
+}
+main > .row > .row > #slide2 .left {
+  left: -500px;
+}
+main > .row .foot {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > .row .foot > .imgbox {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+main > .row .foot > .imgbox:hover > ul {
+  visibility: visible;
+  opacity: 100%;
+}
+main > .row .foot > .imgbox > img {
+  width: 60%;
+  height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+main > .row .foot > .imgbox > ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 190px;
+  rotate: 15deg;
+  transform: translateY(15px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+}
+main > .row .foot > .imgbox > ul > li {
+  font-size: 30px;
+}
+main > .row .foot > .imgbox > ul > li:nth-of-type(2) {
+  transform: translate(10px, 15px);
+}
+main > .row .foot > .imgbox > ul > li:last-of-type {
+  transform: translate(30px, 30px);
+}
+main > .row .foot > .imgbox > ul > li:first-of-type {
+  transform: translateX(10px);
+}
+main > .row .foot > .imgbox > ul > li > a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
