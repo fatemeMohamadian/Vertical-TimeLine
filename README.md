@@ -5,7 +5,7 @@ Used By Scroll Method
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Vertical-TimeLine/)
 
 
-![1](https://github.com/fatemeMohamadian/Chance-Spin-Game/assets/155579918/013e267a-1126-450e-8ec1-ab0f86224c07)
+![1](https://github.com/fatemeMohamadian/Vertical-TimeLine/assets/155579918/9c76c00c-2e03-42c1-8f7d-90f348917746)
 
                                                           😎😉 
                                     
